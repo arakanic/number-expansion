@@ -18,3 +18,5 @@ expandedForm(7.304); // should return '7 + 3/10 + 4/1000'
 expandedForm(0.04); // should return '4/100'
 
 expandedForm(807.304); // Should return '800 + 7 + 3/10 + 4/1000'
+
+![image](https://user-images.githubusercontent.com/4141216/171009703-5bd536c1-7cbb-4654-978c-d83392ae4008.png)
