@@ -1,10 +1,20 @@
 # number-expansion
-This function receives a positive integer and returns it as a string in an expanded form.
+numberexpansion.js receives a positive integer and returns it as a string in an expanded form, while floatexpansion.js does the same for floats.
 
-For example:
+numberexpansion.js:
 
 expandedForm(12); // Should return '10 + 2'
 
 expandedForm(42); // Should return '40 + 2'
 
 expandedForm(70304); // Should return '70000 + 300 + 4'
+
+floatexpansion.js:
+
+expandedForm(1.24); // should return '1 + 2/10 + 4/100'
+
+expandedForm(7.304); // should return '7 + 3/10 + 4/1000'
+
+expandedForm(0.04); // should return '4/100'
+
+expandedForm(807.304); // Should return '800 + 7 + 3/10 + 4/1000'
