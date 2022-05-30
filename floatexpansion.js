@@ -10,3 +10,8 @@ function expandedForm(num) {
                                       .filter(n => n != 0))
                           .join(" + ")
   }
+
+expandedForm(1.24); // should return '1 + 2/10 + 4/100'
+expandedForm(7.304); // should return '7 + 3/10 + 4/1000'
+expandedForm(0.04); // should return '4/100'
+expandedForm(807.304); // Should return '800 + 7 + 3/10 + 4/1000'
